@@ -126,11 +126,9 @@ ul {
 }
 .mail-icon {
   margin-right: 10px;
-  display: block;
 }
 .tel-icon {
   margin-right: 10px;
-  display: block;
 }
 
 .auth-link:hover,
@@ -224,6 +222,7 @@ ul {
   background-size: cover;
   margin-bottom: 30px;
   max-width: 270px;
+  height: 120px;
 }
 .icon + .icon {
   margin-left: 30px;
