@@ -281,18 +281,26 @@ ul {
 .img-team {
   display: block;
 }
+.icon-container {
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
 .icon-team {
   width: 44px;
   height: 44px;
-  border-radius: 10px;
-  background-color: tomato;
-  /* padding-left: 32px;
-  padding-right: 32px; */
+  border-radius: 50%;
+  /* background-color: tomato; */
 }
 .icon-team + .icon-team {
   margin-left: 10px;
 }
 
+.icon-container:hover .icon-team {
+  background-color: var(--button-bg-color);
+  fill: var(--button-active-color);
+}
 /* FOOTER */
 
 .footer {
