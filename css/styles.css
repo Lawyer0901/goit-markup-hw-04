@@ -121,15 +121,16 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+.auth-link:hover .mail-icon {
+  color: var(--text-link-color);
+}
 .mail-icon {
   margin-right: 10px;
+  display: block;
 }
 .tel-icon {
   margin-right: 10px;
-}
-/* .mail-icon:hover, */
-.tel-icon:hover {
-  color: var(--text-link-color);
+  display: block;
 }
 
 .auth-link:hover,
@@ -222,6 +223,7 @@ ul {
   background-color: #f5f4fa;
   background-size: cover;
   margin-bottom: 30px;
+  max-width: 270px;
 }
 .icon + .icon {
   margin-left: 30px;
