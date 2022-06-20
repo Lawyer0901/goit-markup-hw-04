@@ -73,6 +73,7 @@ ul {
 .navigation-main {
   display: flex;
 }
+
 .navigation-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -104,10 +105,13 @@ ul {
 .navigation-auth {
   display: flex;
   margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .auth-link {
-  display: block;
+  display: inline-flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   color: inherit;
@@ -117,6 +121,17 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+.mail-icon {
+  margin-right: 10px;
+}
+.tel-icon {
+  margin-right: 10px;
+}
+/* .mail-icon:hover, */
+.tel-icon:hover {
+  color: var(--text-link-color);
+}
+
 .auth-link:hover,
 .auth-link:focus {
   color: var(--text-link-color);
@@ -128,8 +143,19 @@ ul {
 }
 .hero {
   background-color: var(--bg-section-color);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px;
+  height: 600px;
   text-align: center;
   padding: 200px 0;
+  margin: 0 auto;
 }
 .hero-title {
   margin-bottom: 30px;
@@ -189,7 +215,17 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-
+.icon-benefits {
+  display: inline-flex;
+}
+.icon {
+  background-color: #f5f4fa;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+.icon + .icon {
+  margin-left: 30px;
+}
 .title-two {
   margin-bottom: 50px;
   font-weight: 700;
