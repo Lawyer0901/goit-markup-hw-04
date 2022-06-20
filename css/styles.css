@@ -281,6 +281,17 @@ ul {
 .img-team {
   display: block;
 }
+.icon-team {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background-color: tomato;
+  /* padding-left: 32px;
+  padding-right: 32px; */
+}
+.icon-team + .icon-team {
+  margin-left: 10px;
+}
 
 /* FOOTER */
 
