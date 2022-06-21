@@ -382,6 +382,40 @@ ul {
   margin-bottom: 9px;
 }
 
+.adress-container {
+  width: 231px;
+  outline: 1px solid tomato;
+}
+.footer-container {
+  max-width: 300px;
+  outline: 1px solid tomato;
+  margin-left: 70px;
+}
+.flex-footer {
+  display: flex;
+}
+.title-footer {
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.16;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-link {
+  display: inline-flex;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  fill: var(--button-active-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-link + .footer-link {
+  margin-left: 10px;
+}
+.footer-link:hover {
+  background-color: var(--button-bg-color);
+}
+
 /* CSS Portfolio.html */
 
 /* MAIN-LIST */
