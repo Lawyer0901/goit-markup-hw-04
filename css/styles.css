@@ -121,8 +121,7 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.auth-link:hover .mail-icon
- {
+.auth-link:hover .mail-icon {
   fill: currentColor;
 }
 .auth-link:hover .tel-icon {
@@ -291,7 +290,6 @@ ul {
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: 30px;
-  
 }
 .team-link {
   display: block;
@@ -300,36 +298,38 @@ ul {
   max-width: 44px;
   height: 44px;
   border-radius: 50%;
-  
 }
 
-
 .team-link:hover .icon-team {
-  background-color: var(--button-bg-color
-  );
+  background-color: var(--button-bg-color);
   fill: var(--button-active-color);
-  
 }
 
 .icon-team {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: #AFB1B8;
-  /* background-color: tomato; */
+  fill: #afb1b8;
 }
 .icon-team + .icon-team {
   margin-left: 10px;
 }
 
-/* :hover .icon-team { */
-  /* background-color: var(--button-bg-color);
-  fill: var(--button-active-color);
-} */
-
-
 /* CLIENTS */
-
+.title-four {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.clients-item {
+  max-width: 170px;
+  max-height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
 .clients-main {
   display: flex;
   justify-content: space-between;
@@ -337,7 +337,10 @@ ul {
 
 .clients-link {
   display: block;
-  fill: #AFB1B8;
+  fill: #afb1b8;
+}
+.clients-link:hover .clients-icon {
+  fill: var(--button-bg-color);
 }
 
 /* FOOTER */
