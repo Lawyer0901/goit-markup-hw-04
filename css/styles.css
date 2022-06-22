@@ -219,17 +219,16 @@ ul {
 }
 .icon-benefits {
   display: inline-flex;
-}
-.icon {
-  background-color: #f5f4fa;
-  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
   margin-bottom: 30px;
-  max-width: 270px;
+  width: 270px;
   height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }
-.icon + .icon {
-  margin-left: 30px;
-}
+
 .title-two {
   margin-bottom: 50px;
   font-weight: 700;
@@ -281,6 +280,7 @@ ul {
   margin-bottom: 10px;
 }
 .text-team {
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
@@ -289,35 +289,35 @@ ul {
 .img-team {
   display: block;
 }
+
 .icon-container {
   display: flex;
-  justify-content: space-between;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-bottom: 30px;
+  justify-content: center;
+  align-items: center;
 }
+
+.team-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.team-item-icon {
+  /* text-align: center; */
+}
+
 .team-link {
   display: block;
-  box-sizing: border-box;
-  margin-left: 0;
-  max-width: 44px;
-  height: 44px;
-  border-radius: 50%;
-}
-
-.team-link:hover .icon-team {
-  background-color: var(--button-bg-color);
-  fill: var(--button-active-color);
-}
-
-.icon-team {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   fill: #afb1b8;
 }
-.icon-team + .icon-team {
-  margin-left: 10px;
+
+.team-link:hover {
+  background-color: var(--button-bg-color);
+  fill: var(--button-active-color);
 }
 
 /* CLIENTS */
